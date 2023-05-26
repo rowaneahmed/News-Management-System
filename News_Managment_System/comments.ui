@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Comments</class>
+ <widget class="QDialog" name="Comments">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>457</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="addbtn">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>380</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Comment</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="readbtn">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>380</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Read Comments</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="addlinedit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>30</y>
+     <width>311</width>
+     <height>311</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="readlinedit">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>30</y>
+     <width>311</width>
+     <height>311</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
